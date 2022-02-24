@@ -551,6 +551,7 @@ label {
 .claient-content span {
 	color: #666;
 }
+
 .carousel-indicators [data-bs-target] {
 	box-sizing: content-box;
 	flex: 0 1 auto;
@@ -582,6 +583,14 @@ label {
 	list-style: none;
 	flex-direction: column;
 	
+}
+.carousel-control-prev {
+    left: 0;
+    display: none;
+}
+.carousel-control-next {
+    right: 0;
+    display: none;
 }
 
 .carousel-indicators .active {
